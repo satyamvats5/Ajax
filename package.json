@@ -1,0 +1,30 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "A Demo project for uploading form using Ajax to a node server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyamvats5/Ajax.git"
+  },
+  "author": "Satyam Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyamvats5/Ajax/issues"
+  },
+  "homepage": "https://github.com/satyamvats5/Ajax#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
